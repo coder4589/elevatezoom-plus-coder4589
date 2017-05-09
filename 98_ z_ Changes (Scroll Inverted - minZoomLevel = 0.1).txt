@@ -1,0 +1,44 @@
+
+
+
+- Mouse Scroll Inverted (WheelUp = ZoomIn _ WheelDown = ZoomOut)
+
+	this line:                   if (theEvent / 120 > 0) {
+
+	was changed to:       if (theEvent / 120 < 0) {
+
+
+- "minZoomLevel" default value changed from 1.01 to 0.1
+
+	the "minZoomLevel" at the end of the code
+
+	0.1 allows to ZoomIn further than the image real size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
